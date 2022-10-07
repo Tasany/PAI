@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piping Layout Program</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--NAVBAR SECTION-->
+    <nav class="navbar">
+        <div class="navbar__container">
+           
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+                <li class="navbar__btn">
+                    <a href="planta.html" class="button__1">
+                        Planta
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="equipos.html" class="button__2">
+                        Equipos
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="piperack.html" class="button__3">
+                        Piperack
+                    </a>
+                </li><li class="navbar__btn">
+                    <a href="lineas.html" class="button__4">
+                        Lineas
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="resultados.html" class="button__5">
+                        Resultados
+                    </a>
+                </li> 
+                <a href="index.html" id="navbar__logo">MAJOR PIPING      LAYOUT</a>            
+        </div>
+    </nav>
+            <div class="services">
+            <p>Ingrese area de trabajo de la planta. Si desea seleccionarlo cargue el archivo DWG :  <button>Enter</button> </p>
+            
+            <div class="services__container">
+                <div class="services__cont">
+                    <div class=".img_C1">
+                        <img src="imgs/Planta-guia2.png">
+                    </div>
+                    <p><center>Inserte coordenadas en mm: </center></p>
+                    <p>A
+                    <label for="xA">x :</label>
+                    <input type="number" id="xA" name="xA" min="1" max="8">
+                    <label for="yA">y :</label>
+                    <input type="number" id="yA" name="yA" min="1" max="8">
+                    <button class="button_Guardar_planta">Guardar</button></p> 
+                    <p>B
+                    <label for="xB">x :</label>
+                    <input type="number" id="xB" name="xB" min="1" max="8">
+                    <label for="yB">y :</label>
+                    <input type="number" id="yB" name="yB" min="1" max="8">
+                    <button class="button_Guardar_planta">Guardar</button></p>
+                    <p>C
+                    <label for="xC">x :</label>
+                    <input type="number" id="xC" name="xC" min="1" max="8">
+                    <label for="yC">y :</label>
+                    <input type="number" id="yC" name="yC" min="1" max="8">
+                    <button class="button_Guardar_planta">Guardar</button></p>  
+                    <p>D
+                    <label for="xD">x :</label>
+                    <input type="number" id="xD" name="xD" min="1" max="8">
+                    <label for="yD">y :</label>
+                    <input type="number" id="yD" name="yD" min="1" max="8">
+                    <button class="button_Guardar_planta">Guardar</button></p>            
+                </div>
+                <div class="services__cont">
+                    <h2>Contenedor derecho</h2>
+                    <p>TEXTO</p>
+                    <button>Enter</button>                
+                </div>
+            </div>
+    
+        </div>
+  
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
