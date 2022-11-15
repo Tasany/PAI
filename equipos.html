@@ -50,18 +50,50 @@
         </div>
     </nav>
             <div class="services">
-            <p>Ingrese la informaciòn de los equipos o seleccionelos :  
+            <p>Ingrese la información de los equipos o seleccionelos :  
             
             <div class="services__container">
                 <div class="services__cont">
-                    <h2>Contenedor izquierdo</h2>
-                    <p>TEXTO</p>
-                    <button>Enter</button>                
-                </div>
-                <div class="services__cont">
-                    <h2>Contenedor derecho</h2>
-                    <p>TEXTO</p>
-                    <button>Enter</button>                
+                    <h2>Equipos</h2>
+                    &ensp;
+                    <p>Nombre del equipo
+                    <label for="nbrEquipo">:</label>
+                    <input type="text" id="nbrEquipo" name="nbrEquipo" required minlength="4" maxlength="15" size="10">
+                    </p>
+                    <p>TAG
+                    <label for="TAGequipo">:</label>
+                    <input type="text" id="TAGquipo" name="TAGequipo" required minlength="4" maxlength="15" size="10">
+                    </p>
+                    <p>Coordenadas [mm] :
+                    <label for="x_eq"> x </label>
+                    <input type="number" id="x_eq" name="x_eq" min="1" max="8">
+                    <label for="y_eq"> y </label>
+                    <input type="number" id="y_eq" name="y_eq" min="1" max="8">
+                    <label for="z_eq"> z </label>
+                    <input type="number" id="z_eq" name="z_eq" min="1" max="8">
+                    </p>
+                    <p>Tipo de equipo
+                    <label for="TipoEquipo">:</label>
+                    <select name="tipoEquipo">
+                        <option value="servicio">Servicio</option>
+                        <option value="proceso">Proceso</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    </p>
+                    <center><button class="button_Guardar_equipo">Guardar</button></center>  
+                    &emsp;
+                    <center><table border="1" width="100%"> 
+                        <caption>Tabla de los equipos</caption>
+                        <thead>
+                            <tr><th>N</th><th>TAG</th><th>X</th><th>Y</th><th>Z</th><th>TIPO</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr align="center"><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+                            <tr align="center"><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+                            <tr align="center"><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+                            <tr align="center"><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+                        </tbody>
+                    </table></center>           
                 </div>
             </div>
     

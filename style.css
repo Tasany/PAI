@@ -67,10 +67,30 @@
     padding-right: 5px;  
     border-radius: 5px 5px 5px 5px;  
     border: none;      
-    background: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);;
+    background: linear-gradient(to top, #4621ff 0%, #21d4fd 100%);;
     color:#fff;
 }
 
+.button_Guardar_equipo{
+    text-decoration: none;
+    padding: 5px 5px; 
+    padding-left: 5px; 
+    padding-right: 5px;  
+    border-radius: 5px 5px 5px 5px;  
+    border: none;      
+    background: linear-gradient(to top, #4621ff 0%, #21d4fd 100%);;
+    color:#fff;
+}
+.button_Guardar_linea{
+    text-decoration: none;
+    padding: 5px 5px; 
+    padding-left: 5px; 
+    padding-right: 5px;  
+    border-radius: 5px 5px 5px 5px;  
+    border: none;      
+    background: linear-gradient(to top, #4621ff 0%, #21d4fd 100%);;
+    color:#fff;
+}
 
 .button__1 {
     display: flex;     
@@ -167,7 +187,18 @@
     background: #4837ff;
     transition: all 0.3s ease;
 }
-
+.button_Guardar_planta:hover{
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+.button_Guardar_equipo:hover{
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+.button_Guardar_linea:hover{
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
 
 @media screen and (max-width: 960px){
     .navbar__container{
@@ -546,6 +577,7 @@
 
 .services__cont {
     margin: 1rem;
+    padding: 20px 20px;
     height: 525px;
     width: 400px;
     border-radius: 4px;
@@ -594,7 +626,7 @@
 
 .services h2 {
     position: absolute;
-    top: 350px;
+    top: -15px;
     left: 30px;
 }
 
